@@ -13,16 +13,16 @@
   "downloaded": 0,
   "last_updated": "",
   "added": "",
-  "homepage": "https://foobla.bitbucket.io/thim-core/",
+  "homepage": "https://thimpresswp.github.io/thim-core/",
   "sections": {
     "description": "@todo"
   },
   "short_description": "The Ultimate Core Processor of all WordPress themes by ThimPress.",
-  "download_link": "https://foobla.bitbucket.io/thim-core/dist/thim-core.zip",
+  "download_link": "https://thimpresswp.github.io/thim-core/thim-core.zip",
   "tags": {},
   "donate_link": "",
   "banners": {
-    "low": "https://foobla.bitbucket.io/thim-core/dist/banner-772x250.jpg",
-    "high": "https://foobla.bitbucket.io/thim-core/dist/banner-1544x500.jpg"
+    "low": "https://thimpresswp.github.io/thim-core/static/banner-772x250.jpg",
+    "high": "https://thimpresswp.github.io/thim-core/static/banner-1544x500.jpg"
   }
 }
