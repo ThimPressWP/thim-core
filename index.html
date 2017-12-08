@@ -40,6 +40,24 @@
         <li>Read our guide on how to Get Started with Thim Core.</li>
     </ol>
 
+    <h2>Thim Core Installer Configuration</h2>
+    <ol>
+        <li>Download and include into theme folder.</li>
+        <li>Add a filter:
+<pre>
+add_filter( 'thim_core_installer_theme_config', function () {
+    return array(
+        'name'          => __( 'Example Theme', 'thim-text-domain' ),
+        'slug'          => 'example-theme',
+        'support_link'  => 'https://thimpress.com',
+        'installer_uri' => get_template_directory_uri() . '/inc/admin/thim-core-installer'//Installer directory URI
+    );
+} );
+</pre>
+        </li>
+    </ol>
+
+
     <h2><a id="themes-support" class="anchor" href="#themes-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>What themes does Thim Core support</h2>
 
     <ol>
