@@ -1,11 +1,11 @@
 {
   "name": "Thim Core",
   "slug": "thim-core",
-  "version": "1.8.8",
+  "version": "1.8.9",
   "author": "https://thimpress.com",
   "author_profile": "https://thimpress.com",
   "requires": "4.8",
-  "tested": "4.9.4",
+  "tested": "4.9.5",
   "compatibility": {},
   "rating": 0,
   "num_ratings": 0,
