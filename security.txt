@@ -1,5 +1,4 @@
-Contact: https://patchstack.com/database/vdp/
-Expires: 2027-12-31T23:59:59.000Z
+Contact: https://patchstack.com/database/vdp/9e5fc330-4074-499b-9444-55b555573096
 Preferred-Languages: en, vi
 Canonical: https://thimpresswp.github.io/thim-core/.well-known/security.txt
-Policy: https://patchstack.com/database/vdp/
+Policy: https://patchstack.com/database/vdp/9e5fc330-4074-499b-9444-55b555573096
