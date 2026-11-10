@@ -1,0 +1,196 @@
+.tc-import-elementor { position: relative; }
+.thim-import-list {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	gap: 18px;
+	padding: 20px;
+    min-height: 108px;
+	background: #fff;
+	border-radius: 5px;
+	transition: all .3s ease
+}
+
+.thim-import-list h2 {
+    margin: 10px 0;
+    font-size: 1.4em;
+}
+.thim-import-one-row {
+    grid-column: 1/-1;
+}
+
+.thim-import-item {
+	background: #f5f5f5;
+	border: 1px solid #e5e5e5;
+	border-radius: 6px;
+	overflow: hidden;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+	display: flex;
+	flex-direction: column;
+	transition: all .3s ease;
+}
+
+.thim-import-item:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.thim-import-item-thumb {
+    margin-bottom: 1px;
+	height: 240px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.thim-import-item-body {
+	position: relative;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+    background: #fff;
+}
+
+.thim-import-item-title {
+    margin: 8px 0;
+	font-weight: 600;
+	color: #222222;
+	font-size: 14px;
+}
+
+.button.v4-required {
+	transition: all .3s ease;
+	position: absolute;
+    right: 10px;
+	margin-top: auto;
+	border-color: #93003c;
+	color: #93003c;
+}
+
+.wp-core-ui .thim-import-item-actions {
+    position: absolute;
+    right: 10px;
+	margin-top: auto;
+	opacity: 0;
+	transform: translateY(6px);
+	transition: all .3s ease;
+}
+
+.wp-core-ui .thim-import-item-actions {
+	background: #93003c;
+	border-color: #93003c;
+	color: #fff;
+}
+
+.wp-core-ui .thim-import-item-actions:hover {
+	background: #7a002f;
+	border-color: #7a002f;
+    color: #fff;
+}
+
+.thim-import-empty {
+	padding: 18px;
+	color: #666666;
+	text-align: center;
+}
+
+.thim-import-success {
+	text-align: center;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    display: block;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 8px 40px;
+    color: #155724;
+    background-color: #d4edda;
+}
+
+/* Loading overlay inside the list */
+.thim-import-loading {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255,255,255,0.7);
+	z-index: 5;
+}
+
+.thim-spinner {
+    margin: 16px;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	border: 4px solid rgba(0,0,0,0.08);
+	border-top-color: #93003c;
+	animation: thim-spin 1s linear infinite;
+}
+
+.thim-import-processing {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    display: none;
+    justify-content: center;
+    z-index: 9999;
+}
+
+@keyframes thim-spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+/* reveal actions when hovering the card */
+.thim-import-item:hover .thim-import-item-actions {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Thumbnail overlay and plus icon */
+.thim-import-thumb-overlay {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,0.28);
+	opacity: 0;
+	transition: all .3s ease;
+	text-decoration: none;
+}
+
+.thim-import-thumb-icon {
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.96);
+    font-size: 18px;
+	color: #93003c;
+	text-align: center;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+	transform: scale(0.96);
+	transition: all .3s ease;
+}
+
+.thim-import-item:hover .thim-import-thumb-overlay {
+	opacity: 1;
+}
+
+.thim-import-thumb-overlay:hover .thim-import-thumb-icon {
+	transform: scale(1);
+}
+
+@media (max-width: 640px) {
+	.thim-import-list {
+		grid-template-columns: 1fr;
+	}
+}

@@ -1,0 +1,1752 @@
+# Copyright (C) 2025 ThimPress
+# This file is distributed under the same license as the Thim Core plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Thim Core 2.3.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/thim-core-developer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-19T04:02:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: thim-core\n"
+
+#. Plugin Name of the plugin
+#: thim-core.php
+msgid "Thim Core"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: thim-core.php
+msgid "https://thimpresswp.github.io/thim-core/"
+msgstr ""
+
+#. Description of the plugin
+#: thim-core.php
+msgid "The Ultimate Core Processor of all WordPress themes by ThimPress - Manage your website easier with Thim Core."
+msgstr ""
+
+#. Author of the plugin
+#: thim-core.php
+msgid "ThimPress"
+msgstr ""
+
+#. Author URI of the plugin
+#: thim-core.php
+msgid "https://thimpress.com"
+msgstr ""
+
+#: admin/class-thim-admin-sub-page.php:76
+msgid "variable <strong>key_page</strong> must be over-ridden in a sub-class."
+msgstr ""
+
+#: admin/class-thim-builder-linking-widget.php:71
+msgid "Widget not found!"
+msgstr ""
+
+#: admin/class-thim-child-theme.php:100
+msgid "This theme have not installed!"
+msgstr ""
+
+#: admin/class-thim-child-theme.php:110
+msgid "The requested theme does not exist."
+msgstr ""
+
+#: admin/class-thim-child-theme.php:130
+msgid "The source theme is empty."
+msgstr ""
+
+#: admin/class-thim-child-theme.php:155
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: admin/class-thim-child-themes.php:108
+#: admin/class-thim-layout-builder.php:59
+#: admin/class-thim-product-registration.php:66
+#: templates/dashboard/boxes/updates-lite.php:43
+#: templates/dashboard/boxes/updates.php:46
+msgid "Something went wrong!"
+msgstr ""
+
+#: admin/class-thim-child-themes.php:111
+msgid "This theme not exist!"
+msgstr ""
+
+#: admin/class-thim-child-themes.php:122
+msgid "This theme has already installed!"
+msgstr ""
+
+#: admin/class-thim-child-themes.php:131
+msgid "This theme has not installed yet!"
+msgstr ""
+
+#: admin/class-thim-child-themes.php:204
+msgid "Child Themes"
+msgstr ""
+
+#: admin/class-thim-cookie-consent.php:63
+msgid "Cookie Consent"
+msgstr ""
+
+#: admin/class-thim-cookie-consent.php:195
+#: admin/class-thim-cookie-consent.php:204
+msgid "First-party"
+msgstr ""
+
+#: admin/class-thim-cookie-consent.php:197
+msgid "Second-party"
+msgstr ""
+
+#: admin/class-thim-cookie-consent.php:199
+msgid "Third-party"
+msgstr ""
+
+#: admin/class-thim-cookie-consent.php:330
+msgid "Invalid nonce."
+msgstr ""
+
+#: admin/class-thim-core-admin.php:274
+#: admin/class-thim-getting-started.php:68
+#: templates/welcome-panel.php:98
+msgid "Support"
+msgstr ""
+
+#: admin/class-thim-dashboard.php:284
+#: admin/class-thim-product-registration.php:733
+#: admin/class-thim-product-registration.php:869
+msgid "Something went wrong! Please try again later."
+msgstr ""
+
+#: admin/class-thim-dashboard.php:382
+#, php-format
+msgid "<strong>Important:</strong> We found out your system is using PHP version %1$s. Please consider upgrading to version %2$s or higher."
+msgstr ""
+
+#: admin/class-thim-dashboard.php:420
+#, php-format
+msgid "Thank you for creating with <a href=\"%s\" target=\"_blank\">ThimPress</a>."
+msgstr ""
+
+#: admin/class-thim-dashboard.php:445
+#: admin/class-thim-dashboard.php:529
+msgid "ThimPress Dashboard"
+msgstr ""
+
+#: admin/class-thim-envato-api.php:20
+msgid "Invalid access token"
+msgstr ""
+
+#: admin/class-thim-envato-api.php:158
+msgid "Some thing went wrong!"
+msgstr ""
+
+#: admin/class-thim-envato-api.php:191
+msgid "An API token is required."
+msgstr ""
+
+#: admin/class-thim-envato-api.php:212
+msgid "An unknown API error occurred."
+msgstr ""
+
+#: admin/class-thim-getting-started.php:28
+msgid "Welcome"
+msgstr ""
+
+#: admin/class-thim-getting-started.php:33
+msgid "Setup"
+msgstr ""
+
+#: admin/class-thim-getting-started.php:43
+msgid "Updates"
+msgstr ""
+
+#: admin/class-thim-getting-started.php:52
+#: admin/class-thim-plugins-manager.php:266
+msgid "Plugins"
+msgstr ""
+
+#: admin/class-thim-getting-started.php:58
+#: templates/dashboard/partials/importer-modal.php:63
+msgid "Import"
+msgstr ""
+
+#: admin/class-thim-getting-started.php:63
+#: templates/dashboard/child-themes.php:22
+msgid "Customize"
+msgstr ""
+
+#: admin/class-thim-getting-started.php:73
+msgid "Ready"
+msgstr ""
+
+#: admin/class-thim-getting-started.php:139
+msgid "Oops! It seems you already setup your site."
+msgstr ""
+
+#: admin/class-thim-getting-started.php:317
+msgid "Saving successful!"
+msgstr ""
+
+#: admin/class-thim-importer-ajax.php:43
+msgid "Invalid packages!"
+msgstr ""
+
+#: admin/class-thim-importer-ajax.php:47
+msgid "Invalid step!"
+msgstr ""
+
+#: admin/class-thim-importer-ajax.php:55
+msgid "Invalid demo!"
+msgstr ""
+
+#: admin/class-thim-importer-ajax.php:62
+msgid "Demo not found!"
+msgstr ""
+
+#: admin/class-thim-importer-ajax.php:72
+msgid "Prepare Importer success"
+msgstr ""
+
+#: admin/class-thim-importer-ajax.php:446
+msgid "Not found function"
+msgstr ""
+
+#: admin/class-thim-importer-ajax.php:476
+msgid "Finish step activate plugins"
+msgstr ""
+
+#: admin/class-thim-importer-ajax.php:515
+#, php-format
+msgid "Installing %1$s plugin failed. %2$s"
+msgstr ""
+
+#: admin/class-thim-importer-ajax.php:533
+#, php-format
+msgid "Activate %1$s plugin failed. %2$s"
+msgstr ""
+
+#: admin/class-thim-importer-ajax.php:577
+msgid "Download demo data successfully"
+msgstr ""
+
+#: admin/class-thim-importer-ajax.php:681
+msgid "Import media success"
+msgstr ""
+
+#: admin/class-thim-importer.php:64
+msgid "Theme Options"
+msgstr ""
+
+#: admin/class-thim-importer.php:65
+msgid "Import theme options and rewrite all current settings."
+msgstr ""
+
+#: admin/class-thim-importer.php:68
+msgid "Main Content"
+msgstr ""
+
+#: admin/class-thim-importer.php:69
+msgid "Import posts, pages, comments, menus, custom fields, terms and custom posts."
+msgstr ""
+
+#: admin/class-thim-importer.php:75
+msgid "Media File"
+msgstr ""
+
+#: admin/class-thim-importer.php:76
+msgid "Download media files."
+msgstr ""
+
+#: admin/class-thim-importer.php:80
+msgid "Widgets"
+msgstr ""
+
+#: admin/class-thim-importer.php:81
+msgid "Import widgets data."
+msgstr ""
+
+#: admin/class-thim-importer.php:84
+msgid "Slider Revolution"
+msgstr ""
+
+#: admin/class-thim-importer.php:85
+msgid "Import Slider Revolution."
+msgstr ""
+
+#: admin/class-thim-importer.php:257
+#: templates/dashboard/boxes/updates-lite.php:44
+#: templates/dashboard/boxes/updates.php:47
+msgid "Please try again later."
+msgstr ""
+
+#: admin/class-thim-importer.php:345
+#: templates/dashboard/partials/importer-modal.php:14
+msgid "Import Demo"
+msgstr ""
+
+#: admin/class-thim-importer.php:445
+msgid "The import demo content failed!"
+msgstr ""
+
+#: admin/class-thim-importer.php:446
+msgid "Import failed. The system will automatically adjust some configurations. Please give it one more try. Good luck!"
+msgstr ""
+
+#: admin/class-thim-importer.php:455
+msgid "Uninstall demo content successful :]"
+msgstr ""
+
+#: admin/class-thim-importer.php:456
+msgid "Uninstall demo content failed. Please try again :]"
+msgstr ""
+
+#: admin/class-thim-importer.php:457
+msgid "Do you really want to close?"
+msgstr ""
+
+#: admin/class-thim-importer.php:458
+msgid "Some thing went wrong. Please try again :]"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:112
+#, php-format
+msgid "Please install <a href=\"%s\" target=\"_blank\">SiteOrigin Page Builder</a>"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:190
+msgid "Can not create new post"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:200
+msgid "Layout builder not available now! Please try again later :)"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:485
+msgctxt "Post Type General Name"
+msgid "TP Component"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:486
+msgctxt "Post Type Singular Name"
+msgid "TP Component"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:487
+msgid "TP Components"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:488
+msgid "TP Component"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:489
+msgid "Item Archives"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:490
+msgid "Parent Item:"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:491
+msgid "All Items"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:492
+msgid "Add New Item"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:493
+msgid "Add New"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:494
+msgid "New Item"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:495
+msgid "Edit Item"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:496
+msgid "Update Item"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:497
+msgid "View Item"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:498
+msgid "Search Item"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:499
+msgid "Not found"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:500
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:501
+msgid "Featured Image"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:502
+msgid "Set featured image"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:503
+msgid "Remove featured image"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:504
+msgid "Use as featured image"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:505
+msgid "Insert into item"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:506
+msgid "Uploaded to this item"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:507
+msgid "Items list"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:508
+msgid "Items list navigation"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:509
+msgid "Filter items list"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:518
+msgid "Thim Component"
+msgstr ""
+
+#: admin/class-thim-layout-builder.php:519
+msgid "Post Type Description"
+msgstr ""
+
+#: admin/class-thim-main-dashboard.php:35
+msgid "Quick settings"
+msgstr ""
+
+#: admin/class-thim-main-dashboard.php:45
+msgid "Help & Support"
+msgstr ""
+
+#: admin/class-thim-main-dashboard.php:49
+msgid "Support us"
+msgstr ""
+
+#: admin/class-thim-main-dashboard.php:56
+msgid "Integrations"
+msgstr ""
+
+#: admin/class-thim-main-dashboard.php:64
+#: admin/class-thim-main-dashboard.php:70
+msgid "Welcome admin"
+msgstr ""
+
+#: admin/class-thim-main-dashboard.php:78
+msgid "What is the new?"
+msgstr ""
+
+#: admin/class-thim-main-dashboard.php:309
+msgid "Dashboard"
+msgstr ""
+
+#: admin/class-thim-menu-manager.php:90
+#, php-format
+msgid "Feature Mega Menu only support for WordPress 4.7 or higher. Please <a href=\"%s\">update</a> your site to latest version to use Mega Menu."
+msgstr ""
+
+#: admin/class-thim-menu-manager.php:298
+msgid "Thim Custom Icons"
+msgstr ""
+
+#: admin/class-thim-menu-manager.php:299
+msgid "Thim Sub-menu Align"
+msgstr ""
+
+#: admin/class-thim-menu-manager.php:300
+msgid "Thim Custom Layout"
+msgstr ""
+
+#: admin/class-thim-menu-manager.php:413
+msgid "Are you really want to remove menu item?"
+msgstr ""
+
+#: admin/class-thim-plugin-upgrader.php:154
+msgid "url_api is invalid"
+msgstr ""
+
+#: admin/class-thim-plugin.php:459
+#: for-themes/installer/core/class-thim-plugin.php:407
+msgid "Active"
+msgstr ""
+
+#: admin/class-thim-plugin.php:460
+#: for-themes/installer/core/class-thim-plugin.php:408
+msgid "Inactive"
+msgstr ""
+
+#: admin/class-thim-plugin.php:461
+#: for-themes/installer/core/class-thim-plugin.php:409
+msgid "Not Installed"
+msgstr ""
+
+#: admin/class-thim-plugin.php:835
+msgid "Error download plugin"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:41
+msgid "Post format: Audio"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:49
+msgid "Audio URL or Embeded Code"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:71
+msgid "Post format: Video"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:79
+msgid "Video URL or Embeded Code"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:101
+msgid "Post format: Image"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:109
+#: admin/class-thim-post-formats.php:140
+msgid "Select or Upload Image"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:132
+msgid "Post format: Gallery"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:163
+msgid "Post format: Link"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:171
+msgid "URL"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:176
+msgid "Text"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:197
+msgid "Post format: Quote"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:205
+msgid "Author"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:210
+msgid "Author URL"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:231
+msgid "Post format: Chat"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:244
+msgid "Name"
+msgstr ""
+
+#: admin/class-thim-post-formats.php:249
+msgid "Content"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:40
+msgid "Can not deregister activation."
+msgstr ""
+
+#: admin/class-thim-product-registration.php:645
+msgid "Site key is empty."
+msgstr ""
+
+#: admin/class-thim-product-registration.php:651
+msgid "Site has not been activate theme."
+msgstr ""
+
+#: admin/class-thim-product-registration.php:658
+msgid "Site key is invalid."
+msgstr ""
+
+#: admin/class-thim-product-registration.php:662
+msgid "Ok!"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:780
+#, php-format
+msgid "If you are happy with this theme, please <a href=\"%s\" target=\"_blank\">leave us a 5-star rating</a> on ThemeForest to support and encourage us."
+msgstr ""
+
+#: admin/class-thim-product-registration.php:871
+msgid "Envato API system has occurred error. Please try again later!"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:883
+msgid "Remove site"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:890
+msgid "Your Envato account has been activated in"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:892
+msgid "Please buy new license or click in site to deregister your site then try login again."
+msgstr ""
+
+#: admin/class-thim-product-registration.php:893
+msgid "You can read more"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:893
+#: templates/dashboard/cookie-consent.php:11
+msgid "here"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:928
+msgid "Activate theme successful!"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:975
+#: templates/dashboard/license.php:65
+msgid "Are you sure to remove theme activation??"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:976
+msgid "Updating..."
+msgstr ""
+
+#: admin/class-thim-product-registration.php:977
+#: templates/dashboard/boxes/updates-lite.php:62
+#: templates/dashboard/boxes/updates.php:69
+msgid "Theme is up to date"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:978
+msgid "Some thing went wrong. Please try again later!"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:979
+msgid "The update process will cause errors if you leave this page!"
+msgstr ""
+
+#: admin/class-thim-product-registration.php:980
+#: templates/dashboard/boxes/updates-lite.php:53
+#: templates/dashboard/boxes/updates-lite.php:64
+#: templates/dashboard/boxes/updates.php:56
+#: templates/dashboard/boxes/updates.php:71
+msgid "Your Version is"
+msgstr ""
+
+#: admin/class-thim-self-update.php:95
+msgid "Thim Core by ThimPress"
+msgstr ""
+
+#: admin/class-thim-self-update.php:124
+msgid "Sorry! Something went wrong. Changelog could not be loaded."
+msgstr ""
+
+#: admin/class-thim-service.php:47
+msgid "Service"
+msgstr ""
+
+#: admin/class-thim-sidebar-manager.php:72
+msgid "Are you sure want to remove sidebar "
+msgstr ""
+
+#: admin/class-thim-sidebar-manager.php:86
+msgid "Remove this sidebar"
+msgstr ""
+
+#: admin/class-thim-sidebar-manager.php:133
+msgid "Create new widget area"
+msgstr ""
+
+#: admin/class-thim-sidebar-manager.php:136
+msgid "Create"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:56
+msgid "Display settings"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:60
+msgid "Featured Title Area"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:64
+msgid "Layout"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:76
+msgid "Custom Title and Subtitle"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:89
+msgid "Hide Title and Subtitle"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:95
+msgid "Custom Title"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:98
+msgid "Leave empty to use post title"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:102
+msgid "Color Title"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:108
+msgid "Subtitle"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:114
+msgid "Color Subtitle"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:120
+msgid "Hide Breadcrumbs"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:129
+msgid "Background"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:135
+msgid "Background Image"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:141
+msgid "Background color"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:146
+msgid "Background color opacity"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:158
+msgid "Use Custom Layout"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:165
+msgid "Select Layout"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:179
+msgid "Select sidebar left"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:187
+msgid "Select sidebar right"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:195
+msgid "No Padding Content"
+msgstr ""
+
+#: admin/class-thim-singular-settings.php:217
+msgid "-- Select Sidebar --"
+msgstr ""
+
+#: admin/class-thim-system-status.php:62
+msgid "System Status"
+msgstr ""
+
+#: admin/class-thim-theme-license.php:248
+msgid "License"
+msgstr ""
+
+#: admin/class-thim-widget-layout-builder.php:30
+#: admin/class-thim-widget-layout-builder.php:100
+msgid "Thim Layout Builder"
+msgstr ""
+
+#: admin/class-thim-widget-layout-builder.php:101
+msgid "Open layout builder!"
+msgstr ""
+
+#: helpers/class-thim-file-helper.php:28
+msgid "Connect to WP Filesystem failed!"
+msgstr ""
+
+#: helpers/class-thim-file-helper.php:146
+msgid "Can not save file"
+msgstr ""
+
+#: helpers/class-thim-file-helper.php:171
+msgid "Empty file."
+msgstr ""
+
+#: helpers/class-thim-remote-helper.php:45
+#, php-format
+msgid "Request to %1$s failed.<br><pre>%1$s</pre>"
+msgstr ""
+
+#: helpers/class-thim-remote-helper.php:84
+#, php-format
+msgid "Request to %1$s failed.<br><pre>%2$s</pre>"
+msgstr ""
+
+#: inc/builders/class-abstract-config.php:354
+msgid "Visible Items"
+msgstr ""
+
+#: inc/builders/class-abstract-config.php:363
+msgid "Tablet Items"
+msgstr ""
+
+#: inc/builders/class-abstract-config.php:372
+msgid "Mobile Items"
+msgstr ""
+
+#: inc/builders/elementor/class-el-mapping.php:110
+msgid "https://your-link.com"
+msgstr ""
+
+#: inc/builders/elementor/class-el.php:49
+#: inc/builders/siteorigin/class-so.php:47
+msgid "Thim Builder Widgets"
+msgstr ""
+
+#: inc/builders/siteorigin/class-so-mapping.php:106
+msgid "Item"
+msgstr ""
+
+#: inc/builders/visual-composer/class-vc-shortcode.php:128
+msgid "Extra class"
+msgstr ""
+
+#: inc/builders/visual-composer/class-vc-shortcode.php:131
+msgid "Add extra class for element."
+msgstr ""
+
+#: inc/builders/visual-composer/class-vc-shortcode.php:137
+msgid "Extra ID"
+msgstr ""
+
+#: inc/builders/visual-composer/class-vc-shortcode.php:140
+msgid "Add extra ID for element."
+msgstr ""
+
+#: inc/builders/visual-composer/class-vc-shortcode.php:153
+msgid "ThimBuilder Widgets"
+msgstr ""
+
+#: inc/class-thim-breadcrumb.php:140
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: inc/class-thim-breadcrumb.php:173
+msgid "Error 404"
+msgstr ""
+
+#: inc/class-thim-breadcrumb.php:181
+#, php-format
+msgid "Search results for &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s: author name
+#: inc/class-thim-breadcrumb.php:393
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/class-thim-breadcrumb.php:420
+#, php-format
+msgid "Page %d"
+msgstr ""
+
+#: inc/class-thim-core-customizer.php:115
+#, php-format
+msgid "Your server is running PHP versions %1$s. It is recommended to be on at least PHP 7.0 and preferably PHP 7.x to process all the theme's functionalities. See %2$s"
+msgstr ""
+
+#: inc/class-thim-core-customizer.php:117
+msgid "How to update your PHP version."
+msgstr ""
+
+#: inc/class-thim-core-customizer.php:123
+msgid "Upgrade PHP version"
+msgstr ""
+
+#: inc/class-thim-core-customizer.php:155
+msgid "Support and Documentation"
+msgstr ""
+
+#: inc/class-thim-core-customizer.php:476
+msgid "Save customizer successfully!"
+msgstr ""
+
+#: inc/functions.php:396
+msgid "Extra Features"
+msgstr ""
+
+#: inc/functions.php:403
+msgid "Enable Gutenberg widget editor"
+msgstr ""
+
+#: inc/functions.php:408
+msgid "On"
+msgstr ""
+
+#: inc/functions.php:409
+msgid "Off"
+msgstr ""
+
+#: templates/cookie-category-fields.php:16
+msgid "Title"
+msgstr ""
+
+#: templates/cookie-category-fields.php:22
+#: templates/cookie-category-fields.php:39
+#: templates/modals/cookie-consent.php:88
+msgid "Description"
+msgstr ""
+
+#: templates/cookie-category-fields.php:28
+msgid "Cookie List"
+msgstr ""
+
+#: templates/cookie-category-fields.php:29
+msgid "( You can refer here )"
+msgstr ""
+
+#: templates/cookie-category-fields.php:36
+#: templates/modals/cookie-consent.php:80
+msgid "Cookie"
+msgstr ""
+
+#: templates/cookie-category-fields.php:37
+#: templates/dashboard/cookie-consent.php:180
+msgid "Domain"
+msgstr ""
+
+#: templates/cookie-category-fields.php:38
+#: templates/modals/cookie-consent.php:84
+msgid "Duration"
+msgstr ""
+
+#: templates/cookie-category-fields.php:41
+msgid "Script Source"
+msgstr ""
+
+#: templates/cookie-category-fields.php:43
+msgid "Action"
+msgstr ""
+
+#: templates/cookie-category-fields.php:63
+msgid "Delete"
+msgstr ""
+
+#: templates/cookie-category-fields.php:72
+msgid "Cookie List is Empty -> Add new Cookie"
+msgstr ""
+
+#: templates/cookie-category-fields.php:81
+msgid "Add new Cookie"
+msgstr ""
+
+#: templates/cookie-category-fields.php:87
+msgid "Cookie ID *"
+msgstr ""
+
+#: templates/cookie-category-fields.php:93
+msgid "Cookie Domain *"
+msgstr ""
+
+#: templates/cookie-category-fields.php:101
+msgid "Cookie Duration *"
+msgstr ""
+
+#: templates/cookie-category-fields.php:107
+msgid "Cookie Description *"
+msgstr ""
+
+#: templates/cookie-category-fields.php:116
+msgid "Script Source URL"
+msgstr ""
+
+#: templates/cookie-category-fields.php:117
+msgid "( for blocking the third-party script settings of this cookie )"
+msgstr ""
+
+#: templates/cookie-category-fields.php:130
+#: templates/dashboard/cookie-consent.php:105
+msgid "Save Changes"
+msgstr ""
+
+#: templates/dashboard/boxes/documentation.php:9
+#: templates/dashboard/partials/importer-modal.php:85
+#: templates/welcome-panel.php:94
+msgid "Documentation"
+msgstr ""
+
+#: templates/dashboard/boxes/documentation.php:10
+msgid "A collection of step-by-step guides to help you install, customize and work effectively with the theme."
+msgstr ""
+
+#: templates/dashboard/boxes/documentation.php:12
+#: templates/dashboard/boxes/documentation.php:19
+#: templates/dashboard/boxes/documentation.php:28
+#: templates/dashboard/service.php:38
+#: templates/dashboard/service.php:49
+#: templates/dashboard/service.php:60
+#: templates/dashboard/service.php:77
+#: templates/dashboard/service.php:88
+msgid "Read more"
+msgstr ""
+
+#: templates/dashboard/boxes/documentation.php:16
+msgid "Support Forum"
+msgstr ""
+
+#: templates/dashboard/boxes/documentation.php:17
+msgid "If any problem arise while using the theme, this is where you can ask our technical supporters so that we can help you out."
+msgstr ""
+
+#: templates/dashboard/boxes/documentation.php:25
+msgid "Knowledge Base"
+msgstr ""
+
+#: templates/dashboard/boxes/documentation.php:26
+msgid "You can find detailed answers to almost all common issues regarding theme and plugins usage here."
+msgstr ""
+
+#: templates/dashboard/boxes/master.php:20
+msgid "Go to Customize"
+msgstr ""
+
+#: templates/dashboard/boxes/master.php:23
+msgid "View all Changelog"
+msgstr ""
+
+#: templates/dashboard/boxes/updates-lite.php:30
+#: templates/dashboard/boxes/updates.php:33
+#, php-format
+msgid ""
+"Thanks for installing the %1$s theme. If this is the first time you work with %1$s, please read and follow\n"
+"\t\t\tthe instructions carefully. This is the getting started section of %1$s Theme Dashboard."
+msgstr ""
+
+#: templates/dashboard/boxes/updates-lite.php:37
+#: templates/dashboard/boxes/updates.php:40
+msgid "Let's get started"
+msgstr ""
+
+#: templates/dashboard/boxes/updates-lite.php:51
+msgid "New version available"
+msgstr ""
+
+#: templates/dashboard/boxes/updates-lite.php:56
+msgid "Activate now."
+msgstr ""
+
+#: templates/dashboard/boxes/updates-lite.php:58
+#: templates/dashboard/boxes/updates.php:62
+msgid "Update now"
+msgstr ""
+
+#: templates/dashboard/boxes/updates-lite.php:73
+#: templates/dashboard/boxes/updates.php:80
+msgid "Something wrong"
+msgstr ""
+
+#: templates/dashboard/boxes/updates-lite.php:74
+#: templates/dashboard/boxes/updates.php:81
+msgid "We detected "
+msgstr ""
+
+#: templates/dashboard/boxes/updates-lite.php:80
+#: templates/dashboard/boxes/updates.php:87
+msgid "All is Good"
+msgstr ""
+
+#: templates/dashboard/boxes/updates-lite.php:81
+#: templates/dashboard/boxes/updates.php:88
+msgid "Nothing wrong found"
+msgstr ""
+
+#: templates/dashboard/boxes/updates.php:54
+#, php-format
+msgid "<span style=\"color: red\">Version %1$s</span> available."
+msgstr ""
+
+#: templates/dashboard/boxes/updates.php:60
+msgid "Add personal token"
+msgstr ""
+
+#: templates/dashboard/boxes/updates.php:65
+msgid "Active Theme Now"
+msgstr ""
+
+#: templates/dashboard/child-themes.php:24
+#: templates/dashboard/importer.php:27
+msgid "Install"
+msgstr ""
+
+#: templates/dashboard/child-themes.php:26
+#: templates/dashboard/plugins.php:126
+msgid "Activate"
+msgstr ""
+
+#: templates/dashboard/child-themes.php:33
+msgid "No child themes."
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:10
+#, php-format
+msgid "You can read the documentation %s to understand how to manage Cookie Consent on your site"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:23
+msgid "Cookie Banner"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:31
+msgid "Enable Cookie Consent Popup"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:36
+msgid "Popup Position ( Desktop )"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:41
+msgid "Top Left"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:42
+msgid "Top Right"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:43
+msgid "Bottom Left"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:44
+msgid "Bottom Right"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:45
+msgid "Center"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:58
+msgid "Show Popup on Mobile"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:64
+msgid "Show Revisit Consent Button"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:69
+msgid "Consent Message"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:83
+msgid "Customise Consent Message"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:95
+msgid "Show Categories:"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:117
+msgid "Cookie Manager"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:129
+msgid "Select Categories"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:139
+msgid "Please select a category to manage cookies"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:165
+msgid "All Cookie List"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:168
+msgid "For more specific details about a cookie, you can search by cookie name at "
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:170
+msgid "CookieDatabase.org"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:179
+msgid "Cookie Name (ID)"
+msgstr ""
+
+#: templates/dashboard/cookie-consent.php:181
+msgid "Type"
+msgstr ""
+
+#: templates/dashboard/getting-started.php:19
+#, php-format
+msgid "(%1$s of %2$s)"
+msgstr ""
+
+#: templates/dashboard/gs-steps/customize.php:36
+msgid "Customize your site"
+msgstr ""
+
+#: templates/dashboard/gs-steps/finish.php:50
+#: templates/dashboard/gs-steps/install-plugins.php:62
+msgid "Skip"
+msgstr ""
+
+#: templates/dashboard/gs-steps/finish.php:52
+msgid "View Your Site"
+msgstr ""
+
+#: templates/dashboard/gs-steps/import-demo.php:23
+#: templates/dashboard/gs-steps/welcome.php:60
+msgid "Next step →"
+msgstr ""
+
+#: templates/dashboard/gs-steps/install-plugins.php:6
+msgid "Install Required Plugins"
+msgstr ""
+
+#: templates/dashboard/gs-steps/install-plugins.php:9
+msgid "Below is the list of all the required and recommended plugins for the theme to run perfectly. Please choose all and click the button install and activate below."
+msgstr ""
+
+#: templates/dashboard/gs-steps/install-plugins.php:20
+#: templates/welcome-panel.php:53
+msgid "Plugin"
+msgstr ""
+
+#: templates/dashboard/gs-steps/install-plugins.php:22
+msgid "Require"
+msgstr ""
+
+#: templates/dashboard/gs-steps/install-plugins.php:24
+msgid "Status"
+msgstr ""
+
+#: templates/dashboard/gs-steps/install-plugins.php:47
+#: templates/dashboard/plugins.php:165
+msgid "Required"
+msgstr ""
+
+#: templates/dashboard/gs-steps/install-plugins.php:47
+msgid "Recommend"
+msgstr ""
+
+#: templates/dashboard/gs-steps/install-plugins.php:64
+msgid "Install and activate"
+msgstr ""
+
+#: templates/dashboard/gs-steps/support.php:39
+msgid "Agree and Continue"
+msgstr ""
+
+#: templates/dashboard/gs-steps/welcome.php:19
+#, php-format
+msgid ""
+"<p>Hello there,</p>\n"
+"\n"
+"\t\t\t\t<p>If this is the first time you work with %1$s, please read and follow the instructions carefully.\n"
+"\t\t\t\tThis is the getting started section of %1$s Theme Dashboard. It involves some simple steps to help you install the theme easier and to show you how the theme works, how to edit\n"
+"\t\t\t\tand customize the theme as you want it to be.</p>\n"
+"\n"
+"\t\t\t\t<p>All the documentation and tutorial of the theme can be found <a href=\"%2$s\" target=\"_blank\">here</a>.\n"
+"\t\t\t\tIf there're any problem with the theme, please create a ticket for our supporters to help you <a href=\"%3$s\" target=\"_blank\">here</a>.</p>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>Thank you for using the theme.</p>\n"
+"\n"
+"\t\t\t\t<p>Now, let's start!</p>\n"
+"\t\t\t\t<div class=\"shortcuts\">\n"
+"\t\t\t\t\t<strong>Keyboard shortcuts: </strong>\n"
+"\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t<li>Press <span class=\\\"tc-kbd dashicons dashicons-editor-break\\\"></span> to Continue</li>\n"
+"\t\t\t\t\t\t<li>Press <span class=\\\"tc-kbd dashicons dashicons-arrow-right-alt\\\"></span> to Skip</li>\n"
+"\t\t\t\t\t\t<li>Press <span class=\\\"tc-kbd dashicons dashicons-arrow-left-alt\\\"></span> to Go back</li>\n"
+"\t\t\t\t\t</ul>\n"
+"\t\t\t\t</div>"
+msgstr ""
+
+#: templates/dashboard/importer.php:25
+msgid "Uninstall"
+msgstr ""
+
+#: templates/dashboard/importer.php:28
+msgid "Preview"
+msgstr ""
+
+#: templates/dashboard/importer.php:35
+msgid "No demo content."
+msgstr ""
+
+#: templates/dashboard/license.php:16
+msgid "Personal token (optional)"
+msgstr ""
+
+#: templates/dashboard/license.php:22
+#, php-format
+msgid "Generate an Envato API Personal Token by %s."
+msgstr ""
+
+#: templates/dashboard/license.php:22
+msgid "clicking this link"
+msgstr ""
+
+#: templates/dashboard/license.php:23
+msgid "Name the token eg “My WordPress site”."
+msgstr ""
+
+#: templates/dashboard/license.php:24
+msgid "Ensure the following permissions are enabled:"
+msgstr ""
+
+#: templates/dashboard/license.php:26
+msgid "View and search Envato sites"
+msgstr ""
+
+#: templates/dashboard/license.php:27
+msgid "Download your purchased items"
+msgstr ""
+
+#: templates/dashboard/license.php:28
+msgid "List purchases you've made"
+msgstr ""
+
+#: templates/dashboard/license.php:57
+msgid "Site Key: "
+msgstr ""
+
+#: templates/dashboard/license.php:66
+#: templates/dashboard/license.php:90
+#: templates/dashboard/plugins.php:133
+msgid "Deactivate"
+msgstr ""
+
+#: templates/dashboard/license.php:81
+msgid "Purchase code: "
+msgstr ""
+
+#: templates/dashboard/license.php:98
+msgid "Personal token: "
+msgstr ""
+
+#: templates/dashboard/license.php:118
+#: templates/dashboard/plugins.php:120
+msgid "Update"
+msgstr ""
+
+#: templates/dashboard/license.php:161
+msgid "Submit"
+msgstr ""
+
+#: templates/dashboard/partials/box-status.php:2
+msgid "You must activate the theme to use this feature"
+msgstr ""
+
+#: templates/dashboard/partials/button-activate.php:13
+msgid "Activate theme"
+msgstr ""
+
+#: templates/dashboard/partials/importer-modal.php:18
+msgid "Pre-import"
+msgstr ""
+
+#: templates/dashboard/partials/importer-modal.php:24
+msgid "Required Plugins"
+msgstr ""
+
+#: templates/dashboard/partials/importer-modal.php:25
+msgid "This will install and active plugins required and it is obligatory."
+msgstr ""
+
+#: templates/dashboard/partials/importer-modal.php:37
+msgid "Select what type of content you want to import"
+msgstr ""
+
+#: templates/dashboard/partials/importer-modal.php:64
+msgid "Importing"
+msgstr ""
+
+#: templates/dashboard/partials/importer-modal.php:64
+msgid "Completed"
+msgstr ""
+
+#: templates/dashboard/partials/importer-modal.php:66
+msgid "Enjoy a cup of coffee while you are waiting for importing :)"
+msgstr ""
+
+#: templates/dashboard/partials/importer-modal.php:80
+msgid "Try again"
+msgstr ""
+
+#: templates/dashboard/partials/importer-modal.php:89
+msgid "Hooray! All Done."
+msgstr ""
+
+#: templates/dashboard/partials/importer-modal.php:90
+#, php-format
+msgid "View <a href=\"%1$s\" target=\"_blank\">your site</a> or return to <a href=\"%2$s\">dashboard</a>."
+msgstr ""
+
+#: templates/dashboard/partials/importer-uninstall-modal.php:7
+msgid "Uninstall Demo Content"
+msgstr ""
+
+#: templates/dashboard/partials/importer-uninstall-modal.php:10
+msgid "If you click \"Reset all\", demo content will be deleted. Be careful :)"
+msgstr ""
+
+#: templates/dashboard/partials/importer-uninstall-modal.php:13
+msgid "Reset all"
+msgstr ""
+
+#: templates/dashboard/partials/registration.php:8
+msgid "Product registration"
+msgstr ""
+
+#: templates/dashboard/partials/registration.php:9
+msgid "You're almost finished!"
+msgstr ""
+
+#: templates/dashboard/partials/registration.php:18
+msgid "Don't have direct license yet?"
+msgstr ""
+
+#: templates/dashboard/partials/registration.php:19
+#, php-format
+msgid "Purchase %s license"
+msgstr ""
+
+#: templates/dashboard/plugins.php:18
+msgid "Filter plugins list"
+msgstr ""
+
+#: templates/dashboard/plugins.php:21
+msgid "All "
+msgstr ""
+
+#: templates/dashboard/plugins.php:24
+msgid "Required "
+msgstr ""
+
+#: templates/dashboard/plugins.php:27
+msgid "Recommended "
+msgstr ""
+
+#: templates/dashboard/plugins.php:30
+#, php-format
+msgid "Add-ons (%s)"
+msgstr ""
+
+#: templates/dashboard/plugins.php:34
+msgid "Update Available "
+msgstr ""
+
+#: templates/dashboard/plugins.php:40
+#: templates/dashboard/plugins.php:42
+msgid "Search plugins"
+msgstr ""
+
+#: templates/dashboard/plugins.php:46
+msgid "Search Plugins"
+msgstr ""
+
+#: templates/dashboard/plugins.php:123
+msgid "Install Now"
+msgstr ""
+
+#: templates/dashboard/plugins.php:129
+msgid "Cannot Install"
+msgstr ""
+
+#: templates/dashboard/plugins.php:160
+msgid "Version: "
+msgstr ""
+
+#: templates/dashboard/service.php:35
+msgid "Request new feature"
+msgstr ""
+
+#: templates/dashboard/service.php:36
+msgid "Your Requirement, Our Code: Transforming ideas into features for a better"
+msgstr ""
+
+#: templates/dashboard/service.php:46
+msgid "upload app"
+msgstr ""
+
+#: templates/dashboard/service.php:47
+msgid "Your App's Journey Starts Here.  Easy to use without any technical knowledge"
+msgstr ""
+
+#: templates/dashboard/service.php:57
+msgid "maintenance website"
+msgstr ""
+
+#: templates/dashboard/service.php:58
+msgid "We bring to your website the stability, security and speed."
+msgstr ""
+
+#: templates/dashboard/service.php:74
+msgid "Hosting"
+msgstr ""
+
+#: templates/dashboard/service.php:75
+msgid "Let us help you begin your journey in WordPress."
+msgstr ""
+
+#: templates/dashboard/service.php:85
+msgid "advertise"
+msgstr ""
+
+#: templates/dashboard/service.php:86
+msgid "Amplify your brand's reach and impact with our advertise service"
+msgstr ""
+
+#: templates/dashboard/system-status.php:10
+msgid "Please get and paste this information in your ticket when contacting support:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:15
+msgid "Copy status report"
+msgstr ""
+
+#: templates/dashboard/system-status.php:26
+msgid "WordPress Environment"
+msgstr ""
+
+#: templates/dashboard/system-status.php:31
+msgid "Home URL:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:35
+msgid "Site URL:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:39
+msgid "WP Version:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:43
+msgid "Theme Name:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:47
+msgid "Theme Version:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:51
+msgid "Theme Slug:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:55
+msgid "WP Multisite:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:59
+#: templates/dashboard/system-status.php:71
+msgid "Yes"
+msgstr ""
+
+#: templates/dashboard/system-status.php:61
+#: templates/dashboard/system-status.php:73
+msgid "No"
+msgstr ""
+
+#: templates/dashboard/system-status.php:67
+msgid "WP Debug Mode:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:79
+msgid "Language:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:90
+msgid "Server Environment"
+msgstr ""
+
+#: templates/dashboard/system-status.php:95
+msgid "Server Info:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:100
+msgid "PHP Version:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:104
+#, php-format
+msgid "%1$s - We recommend a minimum PHP version of 5.6. See: %2$s"
+msgstr ""
+
+#: templates/dashboard/system-status.php:104
+msgid "How to update your PHP version"
+msgstr ""
+
+#: templates/dashboard/system-status.php:113
+msgid "PHP Post Max Size:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:122
+msgid "PHP Memory Limit:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:126
+#, php-format
+msgid "<strong>%1$s</strong> - We recommend setting memory to at least <strong>128MB</strong>. <br /> To import demo data, <strong>256MB</strong> of memory limit is required. To learn how, see: <a href=\"%2$s\" target=\"_blank\">Increasing memory allocated to PHP.</a>"
+msgstr ""
+
+#: templates/dashboard/system-status.php:128
+#, php-format
+msgid "<strong>%1$s</strong> - Your current memory limit is sufficient, but if you need to import demo content, the required memory limit is <strong>256MB.</strong>"
+msgstr ""
+
+#: templates/dashboard/system-status.php:137
+msgid "PHP Time Limit:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:143
+#, php-format
+msgid "<strong>%1$s</strong> - We recommend setting max execution time to at least <strong>60</strong>. See: <a href=\"%2$s\" target=\"_blank\">Increasing max execution to PHP</a>"
+msgstr ""
+
+#: templates/dashboard/system-status.php:150
+msgid "MySQL Version:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:157
+msgid "Max Upload Size:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:164
+msgid "cURL version"
+msgstr ""
+
+#: templates/dashboard/system-status.php:169
+msgid "Remote GET:"
+msgstr ""
+
+#: templates/dashboard/system-status.php:175
+#, php-format
+msgid "wp_remote_get() failed. Contact your hosting provider with error: <code>%s</code></br> URL: <code>%s</code>"
+msgstr ""
+
+#: templates/dashboard/system-status.php:181
+msgid "PHP DOM extension"
+msgstr ""
+
+#: templates/dashboard/system-status.php:187
+msgid "PHP DOM extension is missing. Contact your hosting provider."
+msgstr ""
+
+#: templates/developer-access.php:8
+msgid "Developer access"
+msgstr ""
+
+#: templates/developer-access.php:20
+msgid "Revoke developer access"
+msgstr ""
+
+#: templates/developer-access.php:22
+msgid "Copy link"
+msgstr ""
+
+#: templates/developer-access.php:31
+msgid "Allow developer access"
+msgstr ""
+
+#: templates/mega-menu/extra-fields.php:62
+msgid "Content in layout builder will override sub-items"
+msgstr ""
+
+#: templates/modals/cookie-consent.php:25
+msgid "Customise"
+msgstr ""
+
+#: templates/modals/cookie-consent.php:30
+#: templates/modals/cookie-consent.php:130
+msgid "Reject All"
+msgstr ""
+
+#: templates/modals/cookie-consent.php:34
+#: templates/modals/cookie-consent.php:138
+msgid "Accept All"
+msgstr ""
+
+#: templates/modals/cookie-consent.php:65
+msgid "Always Active"
+msgstr ""
+
+#: templates/modals/cookie-consent.php:94
+msgid "No Cookie to display"
+msgstr ""
+
+#: templates/modals/cookie-consent.php:134
+msgid "Save My Preferences"
+msgstr ""
+
+#: templates/welcome-panel.php:21
+msgid "Create a new"
+msgstr ""
+
+#: templates/welcome-panel.php:25
+msgid "Your first blog post"
+msgstr ""
+
+#: templates/welcome-panel.php:39
+msgid "Page"
+msgstr ""
+
+#: templates/welcome-panel.php:70
+msgid "Quick links"
+msgstr ""
+
+#: templates/welcome-panel.php:78
+#, php-format
+msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
+msgstr ""
+
+#: templates/welcome-panel.php:101
+msgid "Typical replies in 24 hours - Business day - GMT+7"
+msgstr ""
+
+#: templates/welcome-panel.php:108
+#: templates/welcome-panel.php:111
+msgid "Customize Your Site"
+msgstr ""
+
+#: templates/welcome-panel.php:119
+#, php-format
+msgid "or, <a href=\"%s\">change your theme completely</a>"
+msgstr ""
+
+#: templates/welcome-panel.php:125
+msgid "Best WordPress, Marketing Tips"
+msgstr ""
+
+#: templates/welcome-panel.php:126
+#, php-format
+msgid "Check all of it from <a href=\"%1$s\" target=\"_blank\">%2$s</a>"
+msgstr ""
